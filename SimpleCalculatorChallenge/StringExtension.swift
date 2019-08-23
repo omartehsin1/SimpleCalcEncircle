@@ -7,6 +7,7 @@
 //
 
 import Foundation
+//checks whether the string is an int or not
 public extension String {
     var isInt: Bool {
         return Int(self) != nil

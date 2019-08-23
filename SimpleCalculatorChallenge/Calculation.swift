@@ -12,7 +12,6 @@ class Calculation {
     let constants = Constants()
     
     //This function handles the input and output, as well as calling the functions to perform the calculations
-    
     func interactiveMode() {
         consoleInOut.writeMessage("Welcome to Simple Calculator")
         let shouldQuit = false
